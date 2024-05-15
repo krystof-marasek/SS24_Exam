@@ -9,7 +9,7 @@ public class Companion : MonoBehaviour
     public List<Transform> movePoints;
     [SerializeField] private float movementSpeed;
     private int nextMovementPoint = 0;
-    private bool isMoving = false;
+    public bool moveToNextPos = false;
 
 
     // Start is called before the first frame update
@@ -21,10 +21,8 @@ public class Companion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)) {
-            isMoving = !isMoving;
-        }
-        if(isMoving)
+   
+        if(moveToNextPos)
         {
             MoveToNextPoint();
         }
@@ -43,9 +41,14 @@ public class Companion : MonoBehaviour
             {
                 transform.position = movePoints[nextMovementPoint].position;
                 nextMovementPoint++;
-                isMoving = !isMoving;
+                moveToNextPos = !moveToNextPos;
             }
         }
         
+    }
+
+    public void StartMovement()
+    {
+        moveToNextPos = true;
     }
 }
