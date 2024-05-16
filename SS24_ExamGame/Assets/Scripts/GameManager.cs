@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         grabbedObjectsList.Add(grabbedObject);
         counter.text = grabbedObjectsList.Count.ToString();
 
-        if(grabbedObjectsList.Count == 8)
+        if(grabbedObjectsList.Count == 6)
         {
             OnAllItemsGrabbed.Invoke();
         }
