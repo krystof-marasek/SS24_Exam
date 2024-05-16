@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/IntroScene.unity
     guid: 5a9cced5fb01c0f44932cf6a3b6c8a4b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ASMRminigame.unity
     guid: c73d7dee64c0c634f84a0cc9ca0e1408
   m_configObjects:
