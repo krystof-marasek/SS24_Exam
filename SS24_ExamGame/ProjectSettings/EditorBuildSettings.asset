@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartScene.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 85a5994be9d88c047a5bfcb27080fc07
   - enabled: 1
     path: Assets/Scenes/FloatingObjects.unity
