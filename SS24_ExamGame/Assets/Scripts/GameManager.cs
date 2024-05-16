@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Minigame")]
     private List<GameObject> grabbedObjectsList = new List<GameObject>();
+    public UnityEvent OnAllItemsGrabbed;
 
     [Header("UI")]
     public TextMeshPro counter;
@@ -37,6 +39,11 @@ public class GameManager : MonoBehaviour
 
         grabbedObjectsList.Add(grabbedObject);
         counter.text = grabbedObjectsList.Count.ToString();
+
+        if(grabbedObjectsList.Count == 8)
+        {
+            OnAllItemsGrabbed.Invoke();
+        }
     }
 }
 
