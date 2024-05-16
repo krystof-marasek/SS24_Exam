@@ -506,22 +506,27 @@ PrefabInstance:
     - target: {fileID: 3127377416852887304, guid: e367714f162349d48a5cb6f00133e149,
         type: 3}
       propertyPath: fadeColor.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3127377416852887304, guid: e367714f162349d48a5cb6f00133e149,
         type: 3}
       propertyPath: fadeColor.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3127377416852887304, guid: e367714f162349d48a5cb6f00133e149,
         type: 3}
       propertyPath: fadeColor.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3127377416852887304, guid: e367714f162349d48a5cb6f00133e149,
         type: 3}
       propertyPath: fadeOnStart
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3127377416852887304, guid: e367714f162349d48a5cb6f00133e149,
+        type: 3}
+      propertyPath: fadeDuration
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3127377416852887305, guid: e367714f162349d48a5cb6f00133e149,
         type: 3}
