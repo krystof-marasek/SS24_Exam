@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Companion : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Companion : MonoBehaviour
     [SerializeField] private float movementSpeed;
     private int nextMovementPoint = 0;
     public bool moveToNextPos = false;
+    public UnityEvent hasMoved = new UnityEvent();
 
 
     // Start is called before the first frame update
@@ -42,6 +44,7 @@ public class Companion : MonoBehaviour
                 transform.position = movePoints[nextMovementPoint].position;
                 nextMovementPoint++;
                 moveToNextPos = !moveToNextPos;
+                hasMoved.Invoke();
             }
         }
         
