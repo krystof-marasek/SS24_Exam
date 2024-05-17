@@ -8,18 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 85a5994be9d88c047a5bfcb27080fc07
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: 5a9cced5fb01c0f44932cf6a3b6c8a4b
+  - enabled: 1
+    path: Assets/Scenes/ASMR.unity
+    guid: 29bc42d7f0d5fa047aa33f02e3ce892a
   - enabled: 0
     path: Assets/Scenes/FloatingObjects.unity
     guid: e5ecf7bbb3c4d4988a3e5ba86c3f365c
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Scenes/IntroScene.unity
-    guid: 5a9cced5fb01c0f44932cf6a3b6c8a4b
-  - enabled: 0
-    path: Assets/Scenes/ASMRminigame.unity
-    guid: c73d7dee64c0c634f84a0cc9ca0e1408
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 772654a0d7a533c4492b385fbfe1bad7,
       type: 2}
