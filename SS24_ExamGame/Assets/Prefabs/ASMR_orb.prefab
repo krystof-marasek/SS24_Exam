@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4841647971664235056}
   - component: {fileID: 8028503662800798266}
   m_Layer: 0
-  m_Name: TestOrb
+  m_Name: ASMR_orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

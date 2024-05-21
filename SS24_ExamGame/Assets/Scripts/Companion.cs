@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -23,7 +21,6 @@ public class Companion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-   
         if(moveToNextPos)
         {
             MoveToNextPoint();
