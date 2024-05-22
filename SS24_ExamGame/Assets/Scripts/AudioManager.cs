@@ -29,6 +29,8 @@ public class AudioManager : MonoBehaviour
     public Sound[] sounds;
 
     public static AudioManager instance;
+
+    private Sound currentSound;
     //AudioManager
 
     void Awake()
@@ -61,12 +63,15 @@ public class AudioManager : MonoBehaviour
         }
 
         s.source.Play();
+        currentSound = s;
     }
 
-    public void Stop(string name)
+    public void Stop()
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if(currentSound != null) 
+        {
+            currentSound.source.Pause();
 
-        s.source.Stop();
+        }
     }
 }
