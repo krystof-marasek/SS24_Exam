@@ -689,6 +689,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8233649680880312455}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   cat: {fileID: 7988320903370185554}
   joyMeter: {fileID: 313556014}
 --- !u!4 &346580581
@@ -8508,6 +8520,14 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6998b4c6fc664dd49bd348609e9cfb39, type: 3}
+--- !u!33 &1035312971780745131
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8233649680880312455}
+  m_Mesh: {fileID: 4300000, guid: 1c961feb7676e4acfbb865b2e785aabc, type: 3}
 --- !u!1 &2443342495195464575
 GameObject:
   m_ObjectHideFlags: 0
@@ -8531,6 +8551,48 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4222008769371330544}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &2927571616270097210
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8233649680880312455}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1b35ffaf2734547b28c818dfc441a1bf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!82 &3784052648952321122 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 18792482672681456, guid: 0ff7a19bc249574468a6514307918a7e,
@@ -9021,6 +9083,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5398045430308070511}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &6739228361868178109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8233649680880312455}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6902264, y: -0.15307236, z: -0.15301952, w: -0.69046474}
+  m_LocalPosition: {x: 2.0377, y: 0.9638586, z: 17.114}
+  m_LocalScale: {x: 62.585606, y: 62.585606, z: 62.585606}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.1799902}
 --- !u!1001 &7100647395056156310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9826,6 +9903,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &8233649680880312455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6739228361868178109}
+  - component: {fileID: 1035312971780745131}
+  - component: {fileID: 2927571616270097210}
+  m_Layer: 0
+  m_Name: Asteroid_ASMRscene
+  m_TagString: Asteroid
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!95 &9188276448489330351
 Animator:
   serializedVersion: 5
@@ -9869,3 +9964,4 @@ SceneRoots:
   - {fileID: 511039623}
   - {fileID: 1810555696}
   - {fileID: 1056384709}
+  - {fileID: 6739228361868178109}
