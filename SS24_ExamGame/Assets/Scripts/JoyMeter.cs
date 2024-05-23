@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class JoyMeter : MonoBehaviour
 {
     [SerializeField] private GameObject progress;
-    private Coroutine increaseJoyCoroutine;
     [SerializeField] private float animationDuration = 1f;
     [SerializeField] private int targetItems = 6;
 
