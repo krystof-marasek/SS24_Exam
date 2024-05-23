@@ -18,18 +18,10 @@ public class JoyMeter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log(100 / targetItems / 100);
-            if (increaseJoyCoroutine != null)
-            {
-                StopCoroutine(increaseJoyCoroutine);
-            }
-            increaseJoyCoroutine = StartCoroutine(IncreaseJoy());
-        }
+       
     }
 
-    private IEnumerator IncreaseJoy()
+    public IEnumerator IncreaseJoy()
     {
         Image joy = progress.GetComponent<Image>();
         float increment = (100f / targetItems) / 100f;
