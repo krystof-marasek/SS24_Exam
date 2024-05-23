@@ -10,9 +10,9 @@ public class GameManager : MonoBehaviour
     [Header("Minigame")]
     private List<GameObject> grabbedObjectsList = new List<GameObject>();
     public UnityEvent OnAllItemsGrabbed;
+    public Companion cat;
 
     [Header("UI")]
-    public TextMeshPro counter;
     public JoyMeter joyMeter;
 
     private void Awake()
@@ -39,11 +39,11 @@ public class GameManager : MonoBehaviour
         if(grabbedObject.CompareTag("CorrectASMRobject"))
         {
             grabbedObjectsList.Add(grabbedObject);
-            counter.text = grabbedObjectsList.Count.ToString();
             StartCoroutine(joyMeter.IncreaseJoy());
+            cat.grabbedRightObject = true;
         }
 
-        if(grabbedObjectsList.Count == 3)
+        if(grabbedObjectsList.Count == 6)
         {
             OnAllItemsGrabbed.Invoke();
         }

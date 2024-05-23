@@ -20,6 +20,11 @@ public class JoyMeter : MonoBehaviour
        
     }
 
+    public void CatGrabsObject()
+    {
+        StartCoroutine(IncreaseJoy());
+    }
+
     public IEnumerator IncreaseJoy()
     {
         Image joy = progress.GetComponent<Image>();

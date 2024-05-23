@@ -18,6 +18,7 @@ public class Companion : MonoBehaviour
 
     //private bool isPlayingAnimation = false;
     private Animator animator;
+    AudioManager audioManager;
 
     public bool grabbedRightObject = false;
 
@@ -105,6 +106,7 @@ public class Companion : MonoBehaviour
 
         
         animator.SetInteger("AnimationInt", 5);
+        AudioManager.instance.Play("Cat Celebration");
         
         //float animationDuration = animator.GetCurrentAnimatorStateInfo(5).length;
         float animationDuration = 4f;
