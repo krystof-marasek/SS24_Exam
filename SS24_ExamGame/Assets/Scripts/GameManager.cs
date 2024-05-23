@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public TextMeshPro counter;
+    public JoyMeter joyMeter;
 
     private void Awake()
     {
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
         {
             grabbedObjectsList.Add(grabbedObject);
             counter.text = grabbedObjectsList.Count.ToString();
+            StartCoroutine(joyMeter.IncreaseJoy());
         }
 
         if(grabbedObjectsList.Count == 3)
