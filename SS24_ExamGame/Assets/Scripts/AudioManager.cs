@@ -1,6 +1,7 @@
 using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using System.Linq;
 
 //Credit to Brackeys youtube tutorial on Audio managers, as the majority of this code and learning how to use it was made by him.
 [System.Serializable]
@@ -27,6 +28,8 @@ public class Sound
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
+    public Sound[] correctAffirmationSounds;
+    public Sound[] wrongAffirmationSounds;
 
     public static AudioManager instance;
 
@@ -63,7 +66,25 @@ public class AudioManager : MonoBehaviour
         }
 
         s.source.Play();
-        currentSound = s;
+
+        if(s.name != "Cat Celebration") 
+        {
+            currentSound = s;
+        }
+    }
+
+    public void PlayAffirmation(string name)
+    {
+        Sound[] allAffirmations = correctAffirmationSounds.Concat(wrongAffirmationSounds).ToArray();
+        Sound s = Array.Find(allAffirmations, sound => sound.name == name);
+        Debug.Log(s.name);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found");
+            return;
+        }
+        s.source.clip = s.clip;
+        s.source.Play();
     }
 
     public void Stop()
