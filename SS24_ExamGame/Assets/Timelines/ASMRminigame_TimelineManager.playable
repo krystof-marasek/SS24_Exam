@@ -176,6 +176,22 @@ MonoBehaviour:
   m_bufferingTime: 0.1
   m_ClipProperties:
     volume: 1
+--- !u!114 &-5758149450898176768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 7.3
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 178c441190a13410db8922fba8abcd38, type: 2}
 --- !u!114 &-5168397276528422844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1535,6 +1551,7 @@ MonoBehaviour:
     - {fileID: 611479711054026463}
     - {fileID: -8958560182441287946}
     - {fileID: -7276369052452055321}
+    - {fileID: -5758149450898176768}
 --- !u!74 &8754370115310455983
 AnimationClip:
   m_ObjectHideFlags: 0
