@@ -1,13 +1,11 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance; 
+    public static GameManager instance;
 
     [Header("Minigame")]
     private List<GameObject> grabbedObjectsList = new List<GameObject>();
@@ -37,13 +35,15 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        grabbedObjectsList.Add(grabbedObject);
-        counter.text = grabbedObjectsList.Count.ToString();
+        if(grabbedObject.CompareTag("CorrectASMRobject"))
+        {
+            grabbedObjectsList.Add(grabbedObject);
+            counter.text = grabbedObjectsList.Count.ToString();
+        }
 
-        if(grabbedObjectsList.Count == 6)
+        if(grabbedObjectsList.Count == 3)
         {
             OnAllItemsGrabbed.Invoke();
         }
     }
 }
-
