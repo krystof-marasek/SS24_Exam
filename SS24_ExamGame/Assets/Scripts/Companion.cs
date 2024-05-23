@@ -16,7 +16,7 @@ public class Companion : MonoBehaviour
     [SerializeField] private float WaitForNextMoveStart = 6f;
     [SerializeField] private float WaitForNextMoveEnd = 8f;
 
-    private bool isPlayingAnimation = false;
+    //private bool isPlayingAnimation = false;
     private Animator animator;
 
     public bool grabbedRightObject = false;
@@ -98,7 +98,7 @@ public class Companion : MonoBehaviour
     }
     public IEnumerator PickedRightObject()
     {
-        isPlayingAnimation = true;
+        //isPlayingAnimation = true;
         moveToNextPos = false;
         isWaiting = false;
         grabbedRightObject = false;
@@ -110,7 +110,7 @@ public class Companion : MonoBehaviour
         float animationDuration = 4f;
         yield return new WaitForSeconds(animationDuration);
 
-        isPlayingAnimation = false;
+        //isPlayingAnimation = false;
         moveToNextPos = true; 
         
     }
