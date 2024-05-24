@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     private List<GameObject> grabbedObjectsList = new List<GameObject>();
     public UnityEvent OnAllItemsGrabbed;
     public Companion cat;
+    private bool firstPlaythrough = false;
 
     [Header("UI")]
     public JoyMeter joyMeter;
@@ -56,9 +57,10 @@ public class GameManager : MonoBehaviour
             
         }
 
-        if(grabbedObjectsList.Count == 6)
+        if(grabbedObjectsList.Count == 6 && !firstPlaythrough)
         {
             OnAllItemsGrabbed.Invoke();
+            firstPlaythrough = true;
         }
     }
 }
