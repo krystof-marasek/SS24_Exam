@@ -1017,6 +1017,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Back To Main Menu",
+                    "type": "Button",
+                    "id": "8555d701-6c4a-4f0b-b02e-de820456d04a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1215,6 +1224,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Is Tracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8cd5d41-148a-4f34-80d6-93554c1f1fb4",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back To Main Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
