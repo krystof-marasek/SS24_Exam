@@ -621,6 +621,74 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e65c108d55846df8dd405b73c4a4f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &320811833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_Name
+      value: XR Device Simulator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
 --- !u!1 &346580579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,7 +1343,7 @@ PrefabInstance:
     - target: {fileID: 4788862525093765351, guid: c3d6c2097a53746c38e5995f995b9646,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2.0757704
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 4788862525093765351, guid: c3d6c2097a53746c38e5995f995b9646,
         type: 3}
@@ -1478,7 +1546,7 @@ GameObject:
   - component: {fileID: 924750765}
   - component: {fileID: 924750770}
   m_Layer: 0
-  m_Name: MovementTutorial
+  m_Name: GrabTutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1525,7 +1593,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1338717c9224d1d438f60c6030f0bff9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b028712cbcdda014c913aac4b1a63321, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -6873,7 +6941,7 @@ Transform:
   m_GameObject: {fileID: 1216455913}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071057, y: -0, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 2.16, y: 0.33, z: 18.83}
+  m_LocalPosition: {x: 2.4642298, y: 0.33, z: 18.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8452,7 +8520,7 @@ GameObject:
   - component: {fileID: 2079960323}
   - component: {fileID: 2079960328}
   m_Layer: 0
-  m_Name: GrabTutorial
+  m_Name: MovementTutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8499,7 +8567,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b028712cbcdda014c913aac4b1a63321, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe19ebf4a2016dd4aa15608f03657815, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -9278,7 +9346,7 @@ Transform:
   m_GameObject: {fileID: 8233649680880312455}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6902264, y: -0.15307236, z: -0.15301952, w: -0.69046474}
-  m_LocalPosition: {x: 2.0377, y: 0.9638586, z: 17.114}
+  m_LocalPosition: {x: 2.42, y: 0.9638586, z: 17.114}
   m_LocalScale: {x: 62.585606, y: 62.585606, z: 62.585606}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -10134,6 +10202,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1149648924}
   - {fileID: 1543116241}
+  - {fileID: 320811833}
   - {fileID: 1826457469}
   - {fileID: 1549585798}
   - {fileID: 685233325}
