@@ -1771,7 +1771,7 @@ PrefabInstance:
     - target: {fileID: 1024956598970767786, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2811174
+      value: 2.2811208
       objectReference: {fileID: 0}
     - target: {fileID: 1024956598970767786, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
@@ -1781,7 +1781,7 @@ PrefabInstance:
     - target: {fileID: 1024956598970767786, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.36401454
+      value: 0.36401525
       objectReference: {fileID: 0}
     - target: {fileID: 1024956598970767786, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
@@ -3578,17 +3578,17 @@ PrefabInstance:
     - target: {fileID: 5047479471219310690, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0000000015632188
+      value: -0.0000000015133992
       objectReference: {fileID: 0}
     - target: {fileID: 5047479471219310690, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000119209275
+      value: -0.00000011920929
       objectReference: {fileID: 0}
     - target: {fileID: 5047479471219310690, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.1546318e-14
+      value: 4.656613e-10
       objectReference: {fileID: 0}
     - target: {fileID: 5760289687127150310, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
@@ -3773,12 +3773,12 @@ PrefabInstance:
     - target: {fileID: 8253327672687692084, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000021855687
+      value: 0.000000022933818
       objectReference: {fileID: 0}
     - target: {fileID: 8253327672687692084, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 8.881783e-16
+      value: 4.656613e-10
       objectReference: {fileID: 0}
     - target: {fileID: 9191342929406699097, guid: ba87ae7a15f3428429d8b382e7556cb0,
         type: 3}
@@ -4156,7 +4156,7 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -4264661030029920867, guid: 1e2151ba5a2b744d5bfa85fe18745b69, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 4849755876289135960, guid: 1e2151ba5a2b744d5bfa85fe18745b69, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 0}
   - key: {fileID: -4451542677200763171, guid: 1e2151ba5a2b744d5bfa85fe18745b69, type: 2}
     value: {fileID: 1481579969}
