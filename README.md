@@ -6,5 +6,5 @@ Credits: Dominik Satke, Krystof Marasek, Magdalena Antonina Lisinska, Noah Peter
 
 This GitHub repository includes all source files for the project.
 
-If you want just a build of the experience, visit https://krystof-marasek.itch.io/
+If you want just a build of the experience, visit https://krystof-marasek.itch.io/.
 DISCLAIMER: this build was developed and tested only on Meta Quest 2; compatibility with other VR headsets is not guaranteed.
