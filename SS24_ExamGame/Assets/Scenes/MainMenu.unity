@@ -407,6 +407,26 @@ PrefabInstance:
     - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_MoveFactor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_EnableFreeXMovement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140833953817275108, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_EnableFreeZMovement
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3127728406573987378, guid: 895f6f3c2d334633b5800312285058d2,
