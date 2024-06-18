@@ -1,6 +1,6 @@
 # SS24_Exam - Mindful Chuchu
  
-This is a VR experience created by 4 students during an elective class at Business Academy Aarhus, Denmark.
+This is a VR experience created by 4 students during an elective class at [Business Academy Aarhus](https://www.baaa.dk/), Denmark.
 
 Credits: Dominik Satke, Krystof Marasek, Magdalena Antonina Lisinska, Noah Petersen
 
